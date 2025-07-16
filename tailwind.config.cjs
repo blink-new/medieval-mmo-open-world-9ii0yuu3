@@ -83,8 +83,12 @@ module.exports = {
   		},
   		fontFamily: {
   			sans: [
-  				'Inter var',
+  				'Inter',
   				'sans-serif'
+  			],
+  			cinzel: [
+  				'Cinzel',
+  				'serif'
   			]
   		},
   		animation: {
@@ -137,4 +141,4 @@ module.exports = {
   	}
   },
   plugins: [require("tailwindcss-animate")],
-} 
+}

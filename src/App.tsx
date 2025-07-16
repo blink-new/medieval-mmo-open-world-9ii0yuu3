@@ -10,7 +10,7 @@ import { Button } from './components/ui/button'
 import { Card } from './components/ui/card'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './components/ui/tabs'
 import { Package, MessageCircle, Scroll, Settings, LogOut } from 'lucide-react'
-import { toast } from 'react-hot-toast'
+import { toast } from 'sonner'
 
 function App() {
   const [user, setUser] = useState(null)
